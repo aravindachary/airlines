@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 1.2em;
+  margin-bottom: 10px;
+}
+
+.my-flight {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.log-out {
+  font-size: larger;
+  font-weight: 600;
+}

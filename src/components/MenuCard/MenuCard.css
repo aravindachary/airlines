@@ -1,0 +1,157 @@
+.menu-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  height: 5em;
+  margin-bottom: 0.6em;
+}
+
+.duration-section {
+  flex: 1;
+  display: inline-grid;
+  text-align: center;
+  padding-top: 1.4em;
+  padding-bottom: 1em;
+  /* display: inline-grid;
+  text-align: center;
+  padding-top: 1.1em;
+  padding-bottom: 1.1em; */
+}
+
+.departure-section {
+  flex: 1;
+  display: inline-grid;
+  text-align: right;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /* text-align: right; */
+  /* display: inline-grid;
+  text-align: right;
+  padding-top: 1em;
+  padding-bottom: 1em; */
+}
+
+.arrival-section {
+  flex: 1;
+  display: inline-grid;
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /* text-align: right; */
+  /* display: inline-grid;
+  text-align: right;
+  padding-top: 1em;
+  padding-bottom: 1em; */
+}
+
+.flight-label {
+  flex: 1;
+  display: inline-grid;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 1.4em;
+  padding-top: 2em;
+  /* text-align: center; */
+  /* font-size: 14px;
+  font-weight: 500;
+  padding-top: 2.2em;
+  padding-left: 2.2em; */
+}
+
+.price-section {
+  flex: 1;
+  display: inline-grid;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  cursor: pointer;
+
+  /* background-color: gray;
+  display: inline-grid;
+  text-align: center;
+  padding: 1em;
+  color: white; */
+}
+
+.flight-time {
+  font-size: 14px;
+}
+
+.location-code {
+  font-weight: bold;
+}
+
+.duration {
+  font-size: small;
+}
+
+.booking-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* .duration-time {
+  height: 0px;
+} */
+/* .departure-section {
+  display: inline-grid;
+  text-align: right;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.flight-label {
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 2.2em;
+  padding-left: 2.2em;
+}
+
+.flight-time {
+  font-size: 14px;
+}
+.location-code {
+  font-weight: bold;
+}
+
+.duration {
+  font-size: small;
+}
+
+.duration-time {
+  height: 0px;
+}
+
+/* .duration-section {
+  display: inline-grid;
+  text-align: center;
+  padding-top: 1.1em;
+  padding-bottom: 1.1em;
+} */
+
+/* .price-section {
+  background-color: gray;
+  display: inline-grid;
+  text-align: center;
+  padding: 1em;
+  color: white;
+} */
+
+/* .booking-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.currency {
+  font-size: 18px;
+  font-weight: 800;
+  padding-left: 4px;
+}  */
+
+.currency {
+  font-size: 18px;
+  font-weight: 800;
+  padding-left: 4px;
+}

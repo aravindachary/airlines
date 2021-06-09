@@ -1,0 +1,4 @@
+.flight-info {
+  height: calc(86vh - 78px);
+  overflow-y: auto;
+}
