@@ -16,8 +16,8 @@ function MenuCard(props) {
                                           +" "+new Date(flightDetail.OriginDestinationOptions[0].FlightSegments[0].DepartureDateTime).getFullYear()}</span>
             </div>
             <div className="duration-section">
-                <span className="duration duration-time">10 Hrs 20 Mins</span>
-                <span className="duration">1 Stops</span>
+                <span className="duration duration-time">{Math.floor(flightDetail.OriginDestinationOptions[0].FlightSegments[0].JourneyDuration/60)} Hrs {flightDetail.OriginDestinationOptions[0].FlightSegments[0].JourneyDuration%60} Mins</span>
+                <span className="duration">{flightDetail.OriginDestinationOptions[0].FlightSegments[0].StopQuantity} Stops</span>
             </div>
             <div className="arrival-section">
                 <span className="flight-time">{new Date(flightDetail.OriginDestinationOptions[0].FlightSegments[0].ArrivalDateTime).getHours()

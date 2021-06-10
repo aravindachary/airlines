@@ -1,7 +1,31 @@
 .bookflight-container {
+  text-align: center;
 }
 
 .header {
-  margin: auto;
   width: 10vw;
+  margin: auto;
+  padding: 5px;
+}
+
+.status {
+  max-width: 500px;
+  font-size: 20px;
+  margin: auto;
+  padding: 5px;
+}
+
+.location {
+  font-weight: bold;
+  padding-right: 8px;
+  padding-left: 4px;
+}
+
+.confirm {
+  max-width: 14vw;
+  font-size: 1.4em;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
 }
